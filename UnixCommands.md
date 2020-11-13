@@ -4,6 +4,7 @@
  It has many format specifiers
 
 | syntax | Description |
+|-|-|
  | d | The day of the month |
  | y | The last two digits of the year |
  | H,M and S | The hour,minute and second respectively |
