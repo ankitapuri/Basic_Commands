@@ -54,3 +54,12 @@
 **$mkdir directory_name** -> make a new directory 
 
 **$rmdir directory_name** -> removes that particular directory
+
+**$cd** -> helps to switch between different directories
+
+**$cat** -> displays contents of the file 
+
+**$cp file1 file2** -> copies the contents of file1 to file2
+
+**$rm file1** -> deletes the files 
+
