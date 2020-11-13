@@ -2,7 +2,7 @@
 
 **$date** -> displays both date and time
 
-It has many format specifiers
+*It has many format specifiers*
 
 | syntax | Description |
 |-|-|
@@ -33,7 +33,7 @@ It has many format specifiers
 
 **$ls** -> lists all the files and directories 
 
-Options to ls
+*Options to ls*
 
 | Option | Description |
 |-|-|
@@ -50,3 +50,7 @@ Options to ls
 | -lu | Sorts by ASCII collating sequence but listing shows last access time |
 | -lut | Sorts by last access time |
 | -i | Displays inode number |
+
+**$mkdir directory_name** -> make a new directory 
+
+**$rmdir directory_name** -> removes that particular directory
