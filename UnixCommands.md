@@ -1,7 +1,8 @@
 ## Unix Commands
 
-**$date** -> displays both date and time 
- It has many format specifiers
+**$date** -> displays both date and time
+
+It has many format specifiers
 
 | syntax | Description |
 |-|-|
@@ -31,6 +32,7 @@
 **$pwd** -> displays the present working directory
 
 **$ls** -> lists all the files and directories 
+
 Options to ls
 
 | Option | Description |
