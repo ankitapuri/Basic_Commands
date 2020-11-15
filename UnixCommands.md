@@ -63,3 +63,4 @@
 
 **$rm file1** -> deletes the files 
 
+**$mv file1 file2** -> renames file1 to file2
