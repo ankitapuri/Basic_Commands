@@ -6,7 +6,9 @@ To invoke vi editor just write in terminal: vi filename
 1. **Command Mode** - The default mode of the editor where every key pressed is interpreted as a command to run.
 
 2. **Input Mode** - Every key pressed after switching to this mode actually shows up as text.
+
 *The Input mode commands are:*
+
 
 | Command | Function |
 | -| -|
@@ -22,3 +24,14 @@ To invoke vi editor just write in terminal: vi filename
 | S | Replaces entire line |
 
 3. **ex Mode** - The mode is used to handle files and perform substitution. Pressing a : in the Command Mode invokes this mode.
+
+*Save and exit commands of the ex Mode:*
+
+
+|Command | Action |
+| -| -|
+| :w | Saves file and remains in editing mode |
+| :x | Saves file and quits editing mode |
+| :wq | Saves file and quits editing mode |
+
+
