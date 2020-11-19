@@ -33,5 +33,9 @@ To invoke vi editor just write in terminal: vi filename
 | :w | Saves file and remains in editing mode |
 | :x | Saves file and quits editing mode |
 | :wq | Saves file and quits editing mode |
+| :w n2w.pl | Like Save As in Microsoft Windows |
+| :w n2w.pl | As above but overwrites the existing file |
+| :q | Quits editing mode when no changes are amde to file |
+| :q! | Quits editing mode after abondoning changes |
 
 
