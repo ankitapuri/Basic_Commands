@@ -44,3 +44,17 @@ To invoke vi editor just write in terminal: vi filename
 | :sh | Escapes to UNIX Shell |
 | :recover | Recovers the file from a crash |
 
+### Navigation in vi Editor
+
+##### Movement in 4 directions 
+
+Movement in 4 direction :
+- k -> Moves the cursor up
+- j -> Moves the cursor down 
+- h -> Moves the cursor left 
+- l -> Moves the cursor right
+
+##### Word Navigation 
+- b -> Moves back to biginning of word
+- e -> Moves forward to end of word 
+- w -> Moves forward to beginning of word 
