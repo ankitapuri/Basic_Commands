@@ -48,7 +48,6 @@ To invoke vi editor just write in terminal: vi filename
 
 ##### Movement in 4 directions 
 
-Movement in 4 direction :
 - k -> Moves the cursor up
 - j -> Moves the cursor down 
 - h -> Moves the cursor left 
