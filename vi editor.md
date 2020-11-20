@@ -37,5 +37,10 @@ To invoke vi editor just write in terminal: vi filename
 | :w n2w.pl | As above but overwrites the existing file |
 | :q | Quits editing mode when no changes are amde to file |
 | :q! | Quits editing mode after abondoning changes |
-
+| :n1,n2w build.sql | Writes lines n1 to n2 to file build.sql |
+| :.w build.sql | Writes current line to file build.sql |
+| :$w build.sql | Writes last line to file build.sql |
+| :!cmd | Runs cmd command and returns to Command Mode |
+| :sh | Escapes to UNIX Shell |
+| :recover | Recovers the file from a crash |
 
