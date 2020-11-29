@@ -1,6 +1,6 @@
 ## The vi Editor
 For editing files in UNIX system, we usually use the vi editor. Like any other editor it uses internal commands to navigate.
-To invoke vi editor just write in terminal: vi filename
+To invoke vi editor just write in terminal:vi filename
 
 ### Modes in vi Editor
 1. **Command Mode** - The default mode of the editor where every key pressed is interpreted as a command to run.
