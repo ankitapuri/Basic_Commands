@@ -57,3 +57,19 @@ To invoke vi editor just write in terminal:vi filename
 - b -> Moves back to biginning of word
 - e -> Moves forward to end of word 
 - w -> Moves forward to beginning of word 
+ 
+ *A repeat factor speeds up cursor movement along the line. For example 5b takes the cursor 5 words back.*
+
+##### Moving to line extremes (0,| and $)
+- In order to move to the first character of the line either use 0(zero) or |.
+ | takes the repeat factor and using that you can position the cursor on a certain column. 
+
+- In order to move to the end of current line we use $.
+
+##### Scrolling ([Ctrl-f],[Ctrl-b],[Ctrl-d] and [Ctrl-u])
+ Faster movement can be achieved by scrolling text in the window using the control keys ->
+ - [Ctrl-f]  Scrolls forward
+ - [Ctrl-b]  Scrolls backward
+ - [Ctrl-d]  Scrolls half page forward
+ - [Ctrl-u] Scrolls half page backward
+ 
