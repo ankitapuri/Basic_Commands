@@ -83,4 +83,18 @@ The entire line are removed by **dd** command. Move to the cursor on any line an
 Put the text at new location with **p or P**. 
 Note-> *p and P place text on right and left only when you delte parts of lines. But the same keys get associated with "below" and "above" when you delete complete lines.*
 
-##### Copying Text 
+##### Copying Text (y and p)
+vi editor uses the term **yanking** for copying the text. For copying one or more lines we use the command **yy**.
+
+##### Joining Lines (J)
+In word processors, you join the current and next line by moving the cursor to the end of the line and pressing [Delete]. This technique won't work in vi-editor. For this we use the command **J**.
+
+##### Undoing the last editing instructions (u and U)
+vi ditor provides the command **u** to undo the last change made. 
+Note-> 1. *Must use **u** in the command mode.*
+       2. *When the number of editing changes have been made to a single line, vi allows you to discard such changes before you move away from that line using the command **U**.*
+
+### Reapeating the last command (.)
+vi editor provides you the facility to repeat the command used previously. The **.(dot)** command is used for repeating both in Input and Command mode. The principle is : Use the actual command once and then repeat it other placs by using the dot command. 
+The . command can be used to repeat only the most recent editing operations (be it insertion,deletion or any other that modifies the buffer). This doesn't include search or navigation commands. 
+       
