@@ -100,9 +100,15 @@ In word processors, you join the current and next line by moving the cursor to t
 ##### Undoing the last editing instructions (u and U)
 
 vi ditor provides the command **u** to undo the last change made.
-Note-> 1. _Must use **u** in the command mode._ 2. _When the number of editing changes have been made to a single line, vi allows you to discard such changes before you move away from that line using the command **U**._
+Note-> 1. _Must use **u** in the command mode._ 2. _When the number of editing changes have been made to a single line, vi allows you to discard such changes before you move away from that line using the command **U**.
 
 ### Reapeating the last command (.)
 
 vi editor provides you the facility to repeat the command used previously. The **.(dot)** command is used for repeating both in Input and Command mode. The principle is : Use the actual command once and then repeat it other placs by using the dot command.
 The . command can be used to repeat only the most recent editing operations (be it insertion,deletion or any other that modifies the buffer). This doesn't include search or navigation commands.
+
+### Searching for a Pattern (/ and ?)
+
+Searching in vi editor can be made in bothforward and reverse directions and can be repeated. It is initiated in command mode by pressing **/**.
+- If you are looking for string printf, enter the string after the / ->   */printf[Enter]* (searches forward)
+- If you are looking for a pattern , enter the pattern after the ? -> *?pattern[Enter]*  (searches backward)
