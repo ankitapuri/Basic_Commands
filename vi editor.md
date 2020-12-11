@@ -58,7 +58,7 @@ To invoke vi editor just write in terminal:vi filename
 - e -> Moves forward to end of word 
 - w -> Moves forward to beginning of word 
  
- *A repeat factor speeds up cursor movement along the line. For example 5b takes the cursor 5 words back.*
+  *A repeat factor speeds up cursor movement along the line. For example 5b takes the cursor 5 words back.*
 
 ##### Moving to line extremes (0,| and $)
 - In order to move to the first character of the line either use 0(zero) or |.
@@ -72,4 +72,15 @@ To invoke vi editor just write in terminal:vi filename
  - [Ctrl-b]  Scrolls backward
  - [Ctrl-d]  Scrolls half page forward
  - [Ctrl-u] Scrolls half page backward
- 
+
+### Editing Text in vi Editor
+
+##### Deleting Text (x and dd)
+The simplest text deletion is achieved with **x** command. This command deletes the character under the cursor. 
+The entire line are removed by **dd** command. Move to the cursor on any line and press dd. 
+
+##### Moving Text (p)
+Put the text at new location with **p or P**. 
+Note-> *p and P place text on right and left only when you delte parts of lines. But the same keys get associated with "below" and "above" when you delete complete lines.*
+
+##### Copying Text 
